@@ -5,4 +5,4 @@ for i in range(len(li)):
     minValIndex = li.index(minVal,i)
     li[i],li[minValIndex] = li[minValIndex],li[i]
 
-print(li)
+print(li) #final output
